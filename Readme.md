@@ -61,6 +61,10 @@ The descriptions of the feature variables can be read in the [Codebook](https://
         features$V2 <- gsub("Gyro", "Gyroscope", features$V2)
         features$V2 <- gsub("Acc", "Accelerometer", features$V2)
         features$V2 <- gsub("Mag", "Magnitude", features$V2)
+        features$V2 <- gsub("\\(","",features$V2)
+        features$V2 <- gsub("\\)","",features$V2)
+        features$V2 <- gsub(",","",features$V2)
+        features$V2 <- gsub("-","",features$V2)
 ```
 * Training data sets are loaded next:
 

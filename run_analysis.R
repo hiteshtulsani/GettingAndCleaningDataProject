@@ -30,6 +30,10 @@ if(!require(reshape2)) {install.packages("reshape2")}
         features$V2 <- gsub("Gyro", "Gyroscope", features$V2)
         features$V2 <- gsub("Acc", "Accelerometer", features$V2)
         features$V2 <- gsub("Mag", "Magnitude", features$V2)
+        features$V2 <- gsub("\\(","",features$V2)
+        features$V2 <- gsub("\\)","",features$V2)
+        features$V2 <- gsub(",","",features$V2)
+        features$V2 <- gsub("-","",features$V2)
 
 
 #Load X_train.txt file into x_train
