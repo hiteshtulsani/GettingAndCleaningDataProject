@@ -127,4 +127,4 @@ After which, the feature variables are loaded to a data.frame and the labels are
 ```
 * __melted_data__ data frame contains data from __data_subset__ melted over __activity__ and __subject__ ID Variables
 * __summary_data__ contains average of each variable for each activity and each subject
-* Finally, __summary_data__ gets stored as a __tidyData.csv__ file in the working directory
+* Finally, __summary_data__ gets stored as a [__tidyData.csv__](https://github.com/hiteshtulsani/GettingAndCleaningDataProject/blob/master/tidyData.csv) file in the working directory
