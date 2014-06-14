@@ -1,7 +1,7 @@
 Getting and Cleaning Data
 ========================================================
 Course Project - Readme
-========================================================
+--------------------------------------------------------
 
 ***
 ### Submitted by: Hitesh Tulsani
@@ -13,9 +13,13 @@ Course Project - Readme
 
 The data is taken from experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, data was captured for 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
-The experiments are carried out by Sport companies like FitBit, Nike etc. in a race to develop most advanced algorighthms to attract new customers. More about wearable computing arena can be read [here](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/).
+The experiments are carried out by Sport companies like FitBit, Nike etc. in a race to develop most advanced algorithms to attract new customers. More about wearable computing arena can be read [here](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/).
 
-The descriptions of the feature variables can be read in the [Codebook](insert link to codebook.md). 
+The descriptions of the feature variables can be read in the [Codebook](https://github.com/hiteshtulsani/GettingAndCleaningDataProject/blob/master/CodeBook.md). 
+
+***
+
+#### Working details of run_analysis.R script
 
 * The script [run_analysis.R](http://insertlink.to.repo.com) starts by checking the existance of the project zip file and / or the "UCI HAR Dataset" folder in the current working directory. If the file is not found it is **downloaded** and *unzipped*: 
 
