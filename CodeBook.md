@@ -1,30 +1,16 @@
-<style type="text/css">
-table {
-
-   border: 0.5px solid #ccc;
-}
- 
-th {
-  background-color: #000000;
-  color: #ffffff;
-}
- 
-td {
-  background-color: #dcdcdc;
-}
-</style>
-
 Getting and Cleaning Data
 ========================================================
 Course Project - Codebook
-========================================================
+--------------------------------------------------------
 
 ***
 ### Submitted by: Hitesh Tulsani
 ### Date:15th June 2014
 
 ***
-The dataset contained 561 variables in X_train.txt and X_test.txt files. The description of the variable is present in 'features_info.txt' in the extracted [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+The given dataset contains 561 variables in X_train.txt and X_test.txt files. The description of the variables can be found in 'features_info.txt' after extracting the [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+
+Following lines describe various data frames / variables created within the script:
 
 * The first interface with project data happens when the activity labels are read into **activityLabels**. 
 
